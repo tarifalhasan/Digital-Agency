@@ -1,0 +1,31 @@
+.hero_bg {
+  background: url(../assets/heroBackground.mp4);
+  background-size: cover;
+  background-position: center;
+}
+.hero_title {
+  font-family: Poppins, sans-serif;
+  color: #e6e6e6;
+  font-weight: 600;
+}
+.short_title {
+  font-family: "open sans", sans-serif;
+  font-size: 20px;
+  color: #a2a2a2;
+  font-weight: 400;
+}
+.image1 {
+  border-radius: 8px 8px 8px 100px;
+}
+.image2 {
+  border-radius: 8px 8px 100px 8px;
+}
+.shape1 {
+  width: 140px;
+  height: 140px;
+  background: #00bcd4;
+  border-radius: 0 100px 100px;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}

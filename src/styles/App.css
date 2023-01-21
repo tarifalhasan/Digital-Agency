@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@400;500;600&family=Poppins:wght@600&display=swap");
+
+body {
+  font-family: open sans, sans-serif;
+  color: #6a6a8e;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  font-size: 17px;
+  overflow-x: hidden;
+}
+/* common css */
+*,
+body {
+  outline: 0;
+}
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+*,
+.badges {
+  vertical-align: baseline;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #e8e8e8;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fb5496;
+}
+::-webkit-scrollbar-thumb {
+  background-image: -webkit-linear-gradient(45deg, #ffbd84, #ff1f8e);
+  background-image: -o-linear-gradient(45deg, #ffbd84, #ff1f8e);
+  background-image: linear-gradient(45deg, #ffbd84, #ff1f8e);
+}
+::-moz-selection {
+  background: rgba(166, 175, 189, 0.3);
+}
+::selection {
+  background: rgba(166, 175, 189, 0.3);
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-os-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus {
+  outline: 0 !important;
+}
+
+button,
+input {
+  -webkit-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  -o-transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.no-shadow {
+  box-shadow: none !important;
+}
+span.circle {
+  right: -130px;
+  width: 200px;
+  height: 200px;
+}
+.text-light {
+  color: #e6e6e6;
+}
+.text-dark-light {
+  color: #a2a2a2;
+}
+.text-primary {
+  color: #fe4c1c;
+}
+.text-second {
+  color: #e91e63;
+}
+.border-b-1 {
+  border-bottom: 1.4px solid rgb(160, 160, 160);
+}
+.header-icon-nav a {
+  background: 0 0;
+  padding: 12px;
+  margin: 5px;
+  border-radius: 50%;
+  color: #0a2233;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #0a2233;
+  text-decoration: none;
+  background-color: #fff;
+  outline: 0;
+}
