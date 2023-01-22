@@ -24,13 +24,12 @@ const Hero = () => {
             faucibus, risus sit amet auctor sodales, justo erat tempor eros.
           </p>
           <div className="flex justify-center relative lg:block">
-            <span class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-sky-400 left-[121px]"></span>
-
             <button
               type="button"
-              className="  text-white bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 shadow-lg shadow-pink-500/50 dark:shadow-lg dark:shadow-pink-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
+              className=" relative text-white bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 shadow-lg shadow-pink-500/50 dark:shadow-lg dark:shadow-pink-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
             >
               GET STARTED
+              <span class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-sky-400 left-[121px] top-0"></span>
             </button>
           </div>
         </div>

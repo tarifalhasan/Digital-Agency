@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import styles from "../../styles/Footer.module.css";
 const Footer = () => {
   return (
-    <div className="grid px-10 justify-center gap-8 md:grid-cols-2 py-4 lg:grid-cols-4 grid-cols-1">
+    <div className="grid px-5 justify-center gap-8 md:grid-cols-2 py-4 lg:grid-cols-4 grid-cols-1">
       <div>
         <div className="brand">
           <Link to="/">TARIF</Link>

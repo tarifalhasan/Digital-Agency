@@ -60,7 +60,7 @@ const Navbar = () => {
                 <li>{nav.name}</li> <FiPlusCircle />
               </Link>
             ))}
-            <div className="btn gap-5 hidden md:flex items-center">
+            <div className="btn gap-5 hidden md:flex items-center focus:ring-4 focus:outline-none  focus:ring-purple-800">
               <div className={styles.call_btn}>
                 <FiPhoneCall />
               </div>
@@ -77,8 +77,8 @@ const Navbar = () => {
             </div>
           </ul>
 
-          {/* ===== Mobline Menubar ==== */}
-          <div className="lg:hidden">
+          {/* ===== Moblile Menubar ==== */}
+          <div className="lg:hidden  ">
             {!showMenu ? (
               <BiMenu className="text-4xl" onClick={showMobileHandler} />
             ) : (
@@ -89,7 +89,7 @@ const Navbar = () => {
       </nav>
       <div
         className={` ${
-          showMenu ? "block" : "hidden"
+          showMenu ? "block z-50" : "hidden"
         } lg:hidden  absolute h-[100vh] w-[70%] md:w-[50%] top-0 bg-gray-900`}
       >
         <div className="flex items-center justify-between px-4 py-4 bg-white">
@@ -110,7 +110,7 @@ const Navbar = () => {
             </Link>
           ))}
         </ul>
-        <div className=" py-11 flex w-full text-white justify-around items-center">
+        <div className=" absolute top-[80%] py-11 flex w-full text-white justify-around items-center">
           <FiPhoneCall />
           <BsFacebook />
           <SiFiverr />
