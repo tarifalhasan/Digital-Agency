@@ -60,7 +60,7 @@ const Navbar = () => {
                 <li>{nav.name}</li> <FiPlusCircle />
               </Link>
             ))}
-            <div className="btn gap-5 hidden md:flex items-center focus:ring-4 focus:outline-none  focus:ring-purple-800">
+            <div className="btn gap-5 hidden md:flex  focus:ring-4 focus:outline-none  focus:ring-purple-800">
               <div className={styles.call_btn}>
                 <FiPhoneCall />
               </div>
@@ -76,7 +76,6 @@ const Navbar = () => {
               </div>
             </div>
           </ul>
-
           {/* ===== Moblile Menubar ==== */}
           <div className="lg:hidden  ">
             {!showMenu ? (

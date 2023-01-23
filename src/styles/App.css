@@ -93,3 +93,23 @@ button:focus {
   line-height: 28px;
   color: #a2a2a2;
 }
+/* ------------Services Section Hover Effect ----------- */
+
+.card_item:hover {
+  transform: translateY(-8.5px);
+}
+.card_item:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  height: 4px;
+  background: -webkit-linear-gradient(
+    -45deg,
+    #fc00c7 0,
+    #1c4efd 54%,
+    #00aded 100%
+  );
+  background: linear-gradient(135deg, #9100ff 0, #3663ff 54%, #00e2ff 100%);
+}
