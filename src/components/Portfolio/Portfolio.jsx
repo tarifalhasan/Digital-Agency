@@ -36,17 +36,17 @@ export default function App() {
         }}
         modules={[Autoplay, Pagination]}
         className="mySwiper  "
-        data-swiper-autoplay="2000"
+        data-swiper-autoplay="4000"
       >
         {sliderItems.map((item) => (
           <SwiperSlide key={item.id} className="my-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16  lg:px-20">
-              <div className="px-10 lg:px-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:my-16  lg:px-20">
+              <div className="px-0 md:px-10 lg:px-24">
                 <div className="sliderImage rounded-lg">
                   <img src={item.image} alt="" srcset="" />
                 </div>
               </div>
-              <div className="sliderText px-10">
+              <div className="sliderText  px-4 md:px-10">
                 <h1 className="heading text-lg lg:text-4xl">{item.role}</h1>
                 <h3>{item.category}</h3>
                 <p className="sub_heading">{item.details}</p>
