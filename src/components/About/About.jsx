@@ -4,7 +4,7 @@ import teamwork from "../../assets/images/team.jpg";
 import styles from "../../styles/About.module.css";
 const About = () => {
   return (
-    <div className="container px-5">
+    <section className="px-5">
       <div className="grid grid-cols-1 items-center lg:grid-cols-2 pt-10">
         <div className="">
           <h1 className="heading">About Agency</h1>
@@ -52,7 +52,7 @@ const About = () => {
           <img src={teamwork} className={styles.teamImage} alt="team" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

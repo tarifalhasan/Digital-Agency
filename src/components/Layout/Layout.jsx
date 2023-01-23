@@ -3,7 +3,7 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 const Layout = ({ children }) => {
   return (
-    <main className=" container mx-auto">
+    <main>
       <Navbar />
       {children}
       <Footer />

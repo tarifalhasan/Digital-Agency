@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.transgation1 {
+  transition: all 0.8s cubic-bezier(0.6, 0.11, 0.45, 1.04);
+  -webkit-transition: all 0.8s cubic-bezier(0.6, 0.11, 0.45, 1.04);
+}
+section,
+header,
+footer {
+  max-width: 1220px;
+  margin: 0 auto;
+}
