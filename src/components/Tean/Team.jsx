@@ -25,7 +25,7 @@ const Team = () => {
   ];
 
   return (
-    <section className="container px-5">
+    <section className="px-5">
       <div className="text-center">
         <h2 className="heading">Our Team</h2>
         <p className="sub_heading">
@@ -40,7 +40,7 @@ const Team = () => {
             clickable: true,
           }}
           autoplay={{
-            delay: 3000,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           modules={[Autoplay, Pagination]}
@@ -49,12 +49,12 @@ const Team = () => {
           {teamData.map((item) => (
             <SwiperSlide key={item.id} className="my-10 bg-black ">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16  lg:px-28">
-                <div className="px-10 lg:px-24  ">
+                <div className="px-0 md:px-10 lg:px-24  ">
                   <div className="cursor-pointer sliderImage rounded-2xl transform transition duration-500 hover:scale-90">
                     <img className="rounded-lg " src={item.image} />
                   </div>
                 </div>
-                <div className="sliderText lg:py-10 px-10 lg:lg-px-1">
+                <div className="sliderText lg:py-10 px-0 md:px-10 lg:lg-px-1">
                   <h1 className="heading text-lg lg:text-4xl">{item.name}</h1>
                   <h3 className="py-4 md:py-0">{item.role}</h3>
                   <div className="grid grid-cols-4 w-[50%]">
