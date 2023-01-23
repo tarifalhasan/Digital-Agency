@@ -1,0 +1,8 @@
+.teamImagesGrid1 {
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem;
+}
+.teamImagesGrid2 {
+  grid-template-columns: 2fr 1.7fr;
+  gap: 2rem;
+}

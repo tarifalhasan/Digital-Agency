@@ -57,7 +57,9 @@ ul {
   -moz-os-font-smoothing: grayscale;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 ul {
   list-style: none;
 }

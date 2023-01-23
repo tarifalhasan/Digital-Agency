@@ -45,7 +45,7 @@ const sliderItems = [
         image :portfolio1,
     },
     {
-        id : 4,
+        id : 7,
         role : "Creative Web Apps",
         category : "React,Js " ,
         details : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus perferendis nemo provident minima fugiat tenetur!",

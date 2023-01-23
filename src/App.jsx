@@ -1,9 +1,13 @@
 import "swiper/css/bundle";
-import About from "./components/About/About";
-import Hero from "./components/Hero/Hero";
+import {
+  About,
+  Client,
+  Hero,
+  Portfolio,
+  Services,
+  Team,
+} from "./components/index";
 import Layout from "./components/Layout/Layout";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Services from "./components/Services/Services";
 
 import "./styles/App.css";
 function App() {
@@ -13,6 +17,8 @@ function App() {
       <About />
       <Services />
       <Portfolio />
+      <Client />
+      <Team />
     </Layout>
   );
 }
