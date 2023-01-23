@@ -17,7 +17,7 @@ export default function App() {
   const [secondSwiper, setSecondSwiper] = useState(null);
 
   return (
-    <section className="container mx-auto px-5">
+    <section className=" mx-auto px-5">
       <div className="lg:text-center py-6 pb-6">
         <h2 className="heading ">Our Latest Creative Work</h2>
         <p className="sub_heading">

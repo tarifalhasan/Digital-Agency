@@ -50,7 +50,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <header className="relative bg-transparent mx-auto border-b-1">
+    <header className="bg-transparent mx-auto border-b-1">
       <nav className=" mx-auto items-center justify-between w-full px-10 flex py-5 ">
         <div className="logo">
           <Link to="/">Logo</Link>
@@ -126,14 +126,14 @@ const Navbar = () => {
       <div
         className={`  ${
           !showMessageMenu ? "top-[-2000%]" : "top-[0%]"
-        }  absolute block h-[100vh] md:left-[48%] lg:left-[68%] transgation1 overflow-y-scroll w-[510px] max-w-[450px]  bg-slate-900 top-0 z-50`}
+        }  absolute block h-[100vh] md:left-[48%] lg:left-[68%] transgation2 overflow-y-scroll   bg-slate-900 top-0 z-50`}
       >
         <MessageMe />
       </div>
       <div className="realtive">
         <div
           className={` ${
-            showMessageMenu ? "top-[15%] md:top-[0%] " : "top-[-100%]"
+            showMessageMenu ? "top-[2%] md:top-[0%] " : "top-[-100%]"
           } absolute block left-[80%] md:left-[43%] lg:left-[65%] z-50 transgation1`}
         >
           <AiFillCloseCircle

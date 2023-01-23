@@ -2,7 +2,7 @@ import React from "react";
 import images from "./index";
 const Client = () => {
   return (
-    <section className="container pt-20 px-5">
+    <section className="pt-20 px-5">
       <div className="lg:text-center">
         <h2 className="heading">Amazing Clients</h2>
         <p className="sub_heading lg:w-[60%] mx-auto my-5">

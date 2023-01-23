@@ -1,11 +1,11 @@
 import React from "react";
 import {
-  BsDiscord,
-  BsFacebook,
-  BsInstagram,
-  BsLinkedin,
-  BsPinterest,
-  BsTwitter,
+    BsDiscord,
+    BsFacebook,
+    BsInstagram,
+    BsLinkedin,
+    BsPinterest,
+    BsTwitter
 } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import callSvg from "../../assets/images/call.svg";
