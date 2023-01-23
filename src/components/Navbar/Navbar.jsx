@@ -9,7 +9,7 @@ import { SiFiverr } from "react-icons/si";
 
 import { Link } from "react-router-dom";
 import styles from "../../styles/Navbar.module.css";
-import MessageMe from "./messageMe";
+import MessageMe from "./MessageMe";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [showMessageMenu, setShowMessageMenu] = useState(false);
