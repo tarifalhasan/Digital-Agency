@@ -4,8 +4,10 @@ import {
   Client,
   Hero,
   Portfolio,
+  Pricing,
   Services,
   Team,
+  Testimonial,
 } from "./components/index";
 import Layout from "./components/Layout/Layout";
 
@@ -19,6 +21,8 @@ function App() {
       <Portfolio />
       <Client />
       <Team />
+      <Testimonial />
+      <Pricing />
     </Layout>
   );
 }

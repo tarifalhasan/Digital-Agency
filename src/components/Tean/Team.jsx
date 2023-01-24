@@ -59,7 +59,7 @@ const Team = () => {
                   <h3 className="py-4 md:py-0">{item.role}</h3>
                   <div className="grid grid-cols-4 w-[50%]">
                     {socialIcon.map((icon) => (
-                      <Link to="/" key={icon.id}>
+                      <Link to="/" key={icon.id} className="lg:my-4">
                         <icon.icon className="text-xl " />
                       </Link>
                     ))}
@@ -73,7 +73,7 @@ const Team = () => {
         <div
           className={`${styles.teamImagesGrid1} py-24 gap-6 md:flex flex-wrap`}
         >
-          <div className="max-h-[22rem] mt-5 lg:mt-0">
+          <div className="max-h-[22rem] mt-5">
             <img
               className="rounded-lg transform transition duration-500 hover:scale-90 "
               src={office2}

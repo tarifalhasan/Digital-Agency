@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import sliderItems from "./data";
-import "./Portfolio.css";
+
 // import required modules
 import { Autoplay, Pagination } from "swiper";
 
@@ -35,12 +35,12 @@ export default function App() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
-        className="mySwiper  "
+        className="mySwiper"
         data-swiper-autoplay="4000"
       >
         {sliderItems.map((item) => (
-          <SwiperSlide key={item.id} className="my-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:my-16  lg:px-20">
+          <SwiperSlide key={item.id} className="my-10 bg-[#1d1d1d]">
+            <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 md:my-16  lg:px-20">
               <div className="px-0 md:px-10 lg:px-24">
                 <div className="sliderImage rounded-lg">
                   <img src={item.image} alt="" srcset="" />
